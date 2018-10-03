@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'GEInspiraSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/GEInspiraSans.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GEInspiraSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/GEInspiraSans.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GEInspiraSans.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'GEInspiraSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/GEInspiraSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GEInspiraSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/GEInspiraSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GEInspiraSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'GEInspiraSans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/GEInspiraSans-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GEInspiraSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/GEInspiraSans-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GEInspiraSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'GEInspiraSans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/GEInspiraSans-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GEInspiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/GEInspiraSans-IBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GEInspiraSans-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+

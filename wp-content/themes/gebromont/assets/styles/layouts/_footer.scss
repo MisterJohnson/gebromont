@@ -1,0 +1,33 @@
+footer.content-info{
+  padding: 32px 0;
+  background-color: #dededd;
+  header{
+    h3{
+      color: #000;
+      font-weight: 700;
+    }
+  }
+  .nav-footer{
+    ul{
+      margin-top: 48px;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      li{
+        margin-right: 193px;
+        border-top: 1px solid rgba(0,0,0,.1);
+        padding: 5px 0;
+        &:last-child{
+          border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+        a{
+text-decoration: none;
+          color: #666;
+          &:hover{
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}

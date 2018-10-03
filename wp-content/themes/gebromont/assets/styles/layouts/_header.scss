@@ -1,0 +1,66 @@
+.const-banner{
+  background-color: #ffc400;
+  padding: 3px 0;
+
+}
+header.banner {
+background-color: #fff;
+  color: #666;
+  margin-top: 0px;
+padding: 32px 0 0 0;
+  a.brand {
+    width: 7%;
+    margin-right: 16px;
+  }
+  .adresse{
+    padding: 10px 0;
+  }
+  nav.nav-primary{
+    padding: 15px 0;
+  }
+  .wrap-list-rezo{
+    padding: 7px 0;
+  }
+ ul.list-rezo{
+   margin-bottom: 0;
+   li{
+     margin: 0 7px 0 0;
+     .btn-round{
+       width: 30px;
+       height: 30px;
+       color: #fff;
+       padding: 6px;
+     }
+     .btn-text{
+       display: block;
+       font-weight: 700;
+       text-transform: uppercase;
+       text-decoration: none;
+       color: #666;
+       padding: 7px 0;
+       &:hover{
+         color: #000;
+       }
+     }
+   }
+ }
+  ul{
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    li.menu-item{
+      margin-right: 15px;
+      a{
+        display: block;
+        padding:0;
+        color: #666;
+        font-weight: 700;
+        &:hover{
+          color:#000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}
