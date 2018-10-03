@@ -83,7 +83,7 @@
                 <h2><?= $titre_section_postuler ?></h2>
 			<?php } ?>
         </header>
-        <div class="wrap-btn-collapse">
+        <div style="cursor: pointer;">
 			<?php if ( $texte_bouton = get_field( 'texte_bouton', $page_id ) ) { ?>
                 <a type="button" class="btn btn-marine" data-toggle="modal" data-target="#ModalAccueil"
                    data-whatever="@mdo"><?= $texte_bouton ?> </a>

@@ -30,7 +30,7 @@
             <div class="col-sm-8"></div>
             <div class="col-sm-4">
                 <p class="copyright">
-                    © <?= date( Y ) ?> Tous droits réservés <a target="_blank"
+                    © <?= date( 'Y' ) ?> Tous droits réservés <a target="_blank"
                                                                href="https://aeroemploi.ca/">aeroemploi.ca</a>
                 </p>
             </div>

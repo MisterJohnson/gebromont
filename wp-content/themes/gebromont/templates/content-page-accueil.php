@@ -117,37 +117,6 @@
                     </h2>
 				<?php } ?>
             </header>
-            <div class="wrap-btn-collapse">
-				<?php if ( $texte_bouton = get_field( 'texte_bouton' ) ) { ?>
-                    <a type="button" class="btn btn-blue" data-toggle="modal" data-target="#ModalAccueil"
-                       data-whatever="@mdo"><?= $texte_bouton ?> </a>
-
-				<?php } ?>
-
-                <div class="modal fade" id="ModalAccueil" tabindex="-1" role="dialog"
-                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="formulaire text-center text-white">
-									<?php if ( $formulaire = get_field( 'formulaire', $page_id ) ) { ?>
-										<?= $formulaire ?>
-										<?php
-									} ?>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <!-- <button type="button" class="btn btn-marine" data-dismiss="modal">Fermer</button>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 			<?php if ( $carousel = get_field( 'carousel' ) ) { ?>
                 <div id="carouselGEemploye" class="carousel slide" data-ride="carousel">
@@ -167,6 +136,37 @@
 							<?php $first = false;
 						} ?>
                     </ol>
+                  <div style="cursor: pointer;margin: -10px auto;position:relative;bottom:50px;z-index:1050;">
+                    <?php if ( $texte_bouton = get_field( 'texte_bouton' ) ) { ?>
+                      <a style="margin: 0 auto;" type="button" class="btn btn-blue" data-toggle="modal" data-target="#ModalAccueil"
+                         data-whatever="@mdo"><?= $texte_bouton ?> </a>
+
+                    <?php } ?>
+
+                    <div class="modal fade" id="ModalAccueil" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="formulaire text-center text-white">
+                              <?php if ( $formulaire = get_field( 'formulaire', $page_id ) ) { ?>
+                                <?= $formulaire ?>
+                                <?php
+                              } ?>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-marine" data-dismiss="modal">Fermer</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                     <div class="carousel-inner">
 						<?php
